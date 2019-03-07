@@ -1,0 +1,27 @@
+# You always want those
+kali-desktop-live
+
+# Kali applications
+kali-linux
+
+# Packages
+firefox-esr
+seclists
+burpsuite
+cewl
+exploitdb
+fcrackzip
+hydra
+masscan
+metasploit-framework
+netdiscover
+nikto
+nmap
+python-impacket
+sqlmap
+wfuzz
+wordlists
+wpscan
+
+# A light desktop
+kali-desktop-xfce
