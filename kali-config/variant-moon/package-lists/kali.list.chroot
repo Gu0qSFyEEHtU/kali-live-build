@@ -22,6 +22,7 @@ sqlmap
 wfuzz
 wordlists
 wpscan
+gobuster
 
 # A light desktop
 kali-desktop-xfce
