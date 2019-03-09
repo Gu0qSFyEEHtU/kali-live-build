@@ -11,8 +11,8 @@ wget https://archive.kali.org/kali/pool/main/l/live-build/live-build_20180925kal
 sudo apt install -y git live-build cdebootstrap debootstrap curl
 sudo dpkg -i *.deb
 
-echo "default_mirror http://http.kali.org/kali"; sed -e "s/debian-archive-keyring.gpg/kali-archive-keyring.gpg/g" sid > /tmp/kali
 cd /usr/share/debootstrap/scripts/
+echo "default_mirror http://http.kali.org/kali"; sed -e "s/debian-archive-keyring.gpg/kali-archive-keyring.gpg/g" sid > /tmp/kali
 sudo mv /tmp/kali .
 sudo ln -s kali kali-rolling
 
