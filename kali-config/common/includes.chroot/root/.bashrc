@@ -108,3 +108,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+mkdir /root/vmshare 2>/dev/null
+mount -t vboxsf vmshare vmshare 2>/dev/null
