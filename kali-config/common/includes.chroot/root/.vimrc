@@ -33,3 +33,5 @@ imap { {}<left>
 imap < <><left>
 inore ' ''<left>
 inore " ""<left>
+
+colorscheme elflord

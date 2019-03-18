@@ -8,7 +8,7 @@ cd deb
 wget http://http.kali.org/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb
 wget https://archive.kali.org/kali/pool/main/l/live-build/live-build_20180925kali1_all.deb
 
-sudo apt install -y git live-build cdebootstrap debootstrap curl
+sudo apt install -y live-build cdebootstrap debootstrap curl
 sudo dpkg -i *.deb
 
 cd /usr/share/debootstrap/scripts/

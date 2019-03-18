@@ -4,8 +4,7 @@ kali-desktop-live
 # Kali applications
 kali-linux
 
-# Packages
-firefox-esr
+# Tools
 seclists
 burpsuite
 cewl
@@ -20,9 +19,16 @@ nmap
 python-impacket
 sqlmap
 wfuzz
-wordlists
 wpscan
 gobuster
+
+# Utils
+firefox-esr
+ftp
+smbclient
+
+#Vbox
+virtualbox-guest-x11
 
 # A light desktop
 kali-desktop-xfce
