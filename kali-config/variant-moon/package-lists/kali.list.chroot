@@ -33,6 +33,7 @@ ftp
 smbclient
 ffmpeg
 imagemagick
+aria2
 
 # A light desktop
 kali-desktop-xfce
